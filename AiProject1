@@ -1,0 +1,69 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+
+
+void main()
+{
+	string city1;
+	string city2;
+	ifstream coordcsv, adjtxt;
+
+	coordcsv.open("Coordinates.txt");
+	adjtxt.open("Adjancencies.txt");
+	if (oordcsv.is_open && adjtxt.is_open()) {
+		cout << 'files opened properly\n';
+	}
+	else {
+		cout << 'error occured with files\n';
+	}
+    cout << "Hello World!\n";
+	cout << "Choose 1 town to determine the starting route\n";
+	cin >> city1;
+	cout << "Choose 1 town to determine the route destination\n";
+	cin >> city2;
+	cout << "You choose " << city1 << " and " << city2;
+
+
+}
+
+
+void bruteForce()
+{
+
+}
+
+
+void bfs() 
+{
+
+}
+
+
+void dfs()
+{
+
+}
+
+
+void idDfs()
+{
+
+}
+
+
+void bestSearch()
+{
+
+}
+
+
+void aSearch()
+{
+
+}
